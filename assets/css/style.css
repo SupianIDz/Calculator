@@ -1,0 +1,83 @@
+
+/*  
+ Calculator Style
+ Nama : M. Supiani
+ NPM : 16631173;
+ www.privcodelab.com
+*/
+
+body {
+	background-color: #554242;
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% -50px;;
+}
+
+p {
+	text-align: center;
+	margin: 0;
+	font-family: Pacifico;
+	position: relative;
+	left: 5%;
+	padding-top: 2%;
+	/* font-weight: bold; */
+}
+
+.calculator {
+	position: relative;
+	margin: 2em auto;
+	padding: 2em auto;
+	display: bloc-inline;
+	width: 400px;
+	background-color: #444;
+	border-radius: 20px;
+	box-shadow: 5px 5px 15px 3px #111;
+	font-family: 'Oxygen';
+}
+
+.calculator-row {
+	text-align: center;
+}
+
+.calculator-row div.screen {
+	font-family: Droid Mono Sans;
+	display: table;
+	width: 87%;
+	background-color: #aaaaaa;
+	text-align: right;
+	font-size: 2em;
+	min-height: 1.2em;
+	margin-left: 0.5em;
+	padding-right: 0.5em;
+	border: 1px solid #888;
+	color: #333;
+}
+
+.calculator-row div {
+	text-align: center;
+	display: inline-block;
+	font-weight: bold;
+	border: 1px solid #555;
+	background-color: #eee;
+	padding: 10px 0;
+	margin: 7px 5px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 1px 1px #222222;
+	width: 60px;
+}
+
+.calculator-row div.zero {
+	width: 140px;
+	margin-right: 5px;
+}
+
+.footer {
+	text-align: center;
+	padding: 5px 5px;
+}
+
+.footer > a {
+	color: #fff;
+	text-decoration: none;
+}
